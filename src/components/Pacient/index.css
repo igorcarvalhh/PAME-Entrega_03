@@ -1,0 +1,14 @@
+.paciente {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.paciente h2{
+    margin-bottom: 10px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+}

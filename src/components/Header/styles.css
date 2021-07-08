@@ -1,0 +1,41 @@
+
+
+header {
+    height: 12%;
+    background-color: #12375c;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; /* alinha verticalmente*/
+    padding: 0px 50px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo h1 {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.nav-options {
+    display: flex;
+    gap: 20px;  /*adiciona espaco entre os elementos filhos*/
+}
+
+
+.nav-options h3 {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.selected {
+    border-bottom: 2px solid green;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}

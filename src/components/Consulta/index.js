@@ -1,11 +1,17 @@
 import "./index.css"
 
 export default function(props) {
+    
     return (
-        <div>
-            <div className="date"></div>
-
-            <div>
+        <div className="consulta">
+            <div className="date">
+                <div className="circle">
+                    <p>{props.dia}</p>
+                    <p>{props.mes}</p>
+                </div>
+            </div>
+            
+            <div className="dados-consulta">
                 <div className="medicoes">
                     <p>Temp: {props.temp}</p>
                     <p>Pressão: {props.pressure}</p>
